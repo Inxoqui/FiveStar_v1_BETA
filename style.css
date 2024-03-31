@@ -1,0 +1,89 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    height: 150px;
+    background-color: black;
+}
+
+header > ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+header a{  
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+#slides{
+    height: 400px;
+    background-color: gray;
+}
+
+#sorteio{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#agendamento{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.contato{
+    font-size: 1.5em;
+}
+
+#container-agendamento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#horario{
+    margin: auto 10px;
+    width: 300px;
+    align-items: center;
+}
+
+#sobre{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#sobre p{
+    margin: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer a {
+    font-size: 1.2em;
+}
